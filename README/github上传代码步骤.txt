@@ -1,0 +1,34 @@
+
+1>进入存储代码的本地文件中。
+
+  cd codeFile
+
+2>登录github账号，将上传入的库链接克隆，
+  将原先库里的文件克隆到本地的codeFile文件中。
+    
+  git clone https://github.com/NaZhang21/Programming_Language-C-C-.git
+
+3>将要上传的代码复制到库文件newFile中
+
+4>进入克隆的本地文件夹中
+ 
+  cd Programing_Language-C-C
+
+5>然后检查仓库状态
+
+  git status
+
+6>将新的文档添加并提交到库中
+  
+  git add newFile/
+  
+  git commit -m "commit newFile file"
+
+7>再次检查库的状态
+
+  git status
+
+8>最后将本地仓库的文件push到远程仓库
+
+  git push origin master
+    
